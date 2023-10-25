@@ -41,7 +41,7 @@ router.post("/login",
     }
 )
 
-router.get("/logut", (req,res)=>{
+router.get("/logout", (req,res)=>{
 
 
     req.logOut((err)=>{
